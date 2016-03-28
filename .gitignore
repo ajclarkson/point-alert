@@ -1,0 +1,4 @@
+.DS_Store
+secure-config.json
+venv
+*.pyc

@@ -39,7 +39,7 @@ class PointAlerter(object):
             return 60 - int(current_time[1])
 
     def calculate_decision_sleep(self):
-        return randint(0, self.config["max-delay-minutes"]) * 60
+        return randint(1, self.config["max-delay-minutes"]) * 60
 
     def run(self):
             while(True):
